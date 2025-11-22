@@ -1,0 +1,101 @@
+🏥 HealthCare Management System RESTful API
+
+Welcome to the HealthCare Management System RESTful API — a secure and scalable backend built using Java, Spring Boot, and MySQL.
+This API provides a complete backend solution for managing hospitals, pharmacies, patients, payments, telemedicine, and more.
+
+👨‍💻 Developer Profile
+
+👋 Author: Asoh Yannick
+
+💼 Role: Backend Software Engineer
+🧠 Expertise:
+
+Java • Spring Boot • Spring Data JPA • Spring Security
+
+MySQL • Stripe • PayPal • RESTful API Architecture
+
+Docker • Microservices • CI/CD
+
+“Building high-performance and secure backend systems for healthcare applications.”
+
+✅ Project Overview
+
+This project follows REST API best practices and provides a foundation for a complete healthcare backend system.
+
+The key features include:
+
+✅	Business Feature
+✅ User & Admin Authentication & Authorization (JWT, Spring Security)
+✅ Patient Management (CRUD, Appointments)
+✅ Pharmacy & Drugs Management
+✅ Payment Management (Stripe & PayPal Integration)
+✅ Employee & Staff Management
+✅ Inventory Management
+✅ Telemedicine Management (Video/Consultation Endpoints)
+✅ Reporting & Analytics Dashboard
+✅ Email Notifications & Alerts
+
+✅ Each check mark indicates that the endpoint has been implemented and tested successfully.
+
+⚙️ Tech Stack
+Layer	Technology
+Backend Framework	Spring Boot
+Database	MySQL
+ORM	Spring Data JPA
+Security	Spring Security (JWT Authentication)
+Payments	Stripe & PayPal Integration
+Containerization	Docker
+Build Tool	Maven / Gradle
+Testing	JUnit & Mockito
+📘 API Endpoints Summary
+
+Below is a high-level summary of the key endpoints designed for this backend system:
+
+Category	Description	Example Endpoint
+✅ Auth	Register, Login, Logout	/api/v1/auth/register
+✅ Users	Manage user profiles & roles	/api/v1/users/{id}
+✅ Patients	CRUD patients, appointments	/api/v1/patients/{id}
+✅ Pharmacy	Drugs inventory & management	/api/v1/pharmacy/drugs
+✅ Payments	Stripe & PayPal payments	/api/v1/payments/checkout
+✅ Employees	Staff & role management	/api/v1/employees/{id}
+✅ Inventory	Manage medical supplies	/api/v1/inventory
+✅ Telemedicine	Video consultation & sessions	/api/v1/telemedicine/sessions
+✅ Analytics	Dashboard metrics & reports	/api/v1/analytics
+✅ Admin	Manage system & reports	/api/v1/admin/users
+🐳 Running Locally (Docker Setup)
+# Clone the repository
+git clone https://github.com/asohyannick/healthCare
+cd healthCare-backend
+
+# Build and run using Docker
+docker-compose up --build
+
+🧩 Contribution Guide
+
+We welcome contributions from developers around the world 🌍!
+If you’re interested in collaborating:
+
+Fork the repository
+
+Create a new branch for your feature or bug fix
+
+Commit your changes with clear messages
+
+Submit a Pull Request (PR)
+
+💡 Let’s build something impactful together!
+
+📫 Contact
+
+📧 Email: asohyannick.dev@gmail.com
+
+🔗 GitHub: https://github.com/asohyannick
+
+💼 LinkedIn: linkedin.com/in/asohyannick
+
+🟩 Project Status
+
+✅ All core backend features implemented successfully.
+🚀 Continuous improvements and community contributions are encouraged!
+
+© 2025 Asoh Yannick — Backend Software Engineer

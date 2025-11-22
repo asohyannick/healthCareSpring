@@ -1,0 +1,61 @@
+spring:
+  application:
+    name: ${APP_NAME}
+    app-version: ${API_VERSION}
+
+  mail:
+    host: ${MAIL_HOST}
+    port: ${MAIL_PORT}
+    username: ${MAIL_USERNAME}
+    password: ${MAIL_PASSWORD}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+  datasource:
+    url: ${SPRING_DATASOURCE_URL}
+    username: ${SPRING_DATASOURCE_USERNAME}
+    password: ${SPRING_DATASOURCE_PASSWORD}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: ${SPRING_JPA_HIBERNATE_DDL_AUTO}
+    show-sql: ${SPRING_JPA_SHOW_SQL}
+    properties:
+      hibernate:
+        dialect: ${SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT}
+    open-in-view: false
+
+server:
+  port: ${APPLICATION_PORT}
+
+# JWT Configuration
+jwt:
+  secret-key: ${JWT_SECRET_KEY}
+  access-token-expiration: ${ACCESS_TOKEN_EXPIRATION}
+  refresh-token-expiration: ${REFRESH_TOKEN_EXPIRATION}
+  refresh-access-token: ${REFRESH_ACCESS_TOKEN}
+
+# Stripe Configuration
+stripe:
+  api-key: ${STRIPE_API_KEY}
+
+# Firebase Configuration
+firebase:
+  project-id: ${FIREBASE_PROJECT_ID}
+  private-key-id: ${FIREBASE_PRIVATE_KEY_ID}
+  private-key: ${FIREBASE_PRIVATE_KEY}
+  client-email: ${FIREBASE_CLIENT_EMAIL}
+  client-id: ${FIREBASE_CLIENT_ID}
+  auth-url: ${FIREBASE_AUTH_URL}
+  token-url: ${FIREBASE_TOKEN_URL}
+  cert-url: ${FIREBASE_CERT_URL}
+
+logging:
+  level:
+    org.springframework.mail: INFO
+    jakarta.mail: WARN
