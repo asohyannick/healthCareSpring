@@ -1,4 +1,8 @@
 spring:
+  web:
+    resources:
+      add-mappings: false
+
   application:
     name: ${APP_NAME}
     app-version: ${API_VERSION}
@@ -59,3 +63,4 @@ logging:
   level:
     org.springframework.mail: INFO
     jakarta.mail: WARN
+
