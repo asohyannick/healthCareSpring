@@ -31,7 +31,7 @@ spring:
     show-sql: ${SPRING_JPA_SHOW_SQL}
     properties:
       hibernate:
-        dialect: ${SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT}
+        format_sql: true
     open-in-view: false
 
 server:
